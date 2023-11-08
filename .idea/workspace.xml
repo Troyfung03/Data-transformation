@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfffcedb-bf39-4d2b-8c3b-90289fdcb5d6" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/hotel_bookings.csv" afterDir="false" />
+    <list default="true" id="cfffcedb-bf39-4d2b-8c3b-90289fdcb5d6" name="Changes" comment="data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataTransformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTransformation.py" afterDir="false" />
     </list>
@@ -64,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699453109320</updated>
       <workItem from="1699453111468" duration="66000" />
-      <workItem from="1699453198758" duration="663000" />
+      <workItem from="1699453198758" duration="2356000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1699453542453</created>
@@ -87,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699453693599</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="data">
+      <created>1699453899919</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699453899919</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +102,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="init commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init commit" />
+    <MESSAGE value="data" />
+    <option name="LAST_COMMIT_MESSAGE" value="data" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pythonProject5$DataTransformation.coverage" NAME="DataTransformation Coverage Results" MODIFIED="1699454819015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
