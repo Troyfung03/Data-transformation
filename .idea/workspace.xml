@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfffcedb-bf39-4d2b-8c3b-90289fdcb5d6" name="Changes" comment="data">
+    <list default="true" id="cfffcedb-bf39-4d2b-8c3b-90289fdcb5d6" name="Changes" comment="remove duplicate and convert data to right format">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataTransformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTransformation.py" afterDir="false" />
     </list>
@@ -45,6 +48,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
@@ -63,7 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1699453109320</updated>
       <workItem from="1699453111468" duration="66000" />
-      <workItem from="1699453198758" duration="2356000" />
+      <workItem from="1699453198758" duration="2558000" />
+      <workItem from="1699508515302" duration="6754000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1699453542453</created>
@@ -93,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699453899919</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="remove duplicate and convert data to right format">
+      <created>1699455569546</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699455569546</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,9 +118,10 @@
     <MESSAGE value="init" />
     <MESSAGE value="init commit" />
     <MESSAGE value="data" />
-    <option name="LAST_COMMIT_MESSAGE" value="data" />
+    <MESSAGE value="remove duplicate and convert data to right format" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove duplicate and convert data to right format" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject5$DataTransformation.coverage" NAME="DataTransformation Coverage Results" MODIFIED="1699454819015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject5$DataTransformation.coverage" NAME="DataTransformation Coverage Results" MODIFIED="1699517639984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
