@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfffcedb-bf39-4d2b-8c3b-90289fdcb5d6" name="Changes" comment="Merge and drop column">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cfffcedb-bf39-4d2b-8c3b-90289fdcb5d6" name="Changes" comment="final ver">
       <change beforePath="$PROJECT_DIR$/DataTransformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTransformation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +71,7 @@
       <workItem from="1699453111468" duration="66000" />
       <workItem from="1699453198758" duration="2558000" />
       <workItem from="1699508515302" duration="9111000" />
-      <workItem from="1699534309821" duration="6698000" />
+      <workItem from="1699534309821" duration="6923000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1699453542453</created>
@@ -116,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699521248328</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="final ver">
+      <created>1699541279002</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699541279002</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +134,8 @@
     <MESSAGE value="data" />
     <MESSAGE value="remove duplicate and convert data to right format" />
     <MESSAGE value="Merge and drop column" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge and drop column" />
+    <MESSAGE value="final ver" />
+    <option name="LAST_COMMIT_MESSAGE" value="final ver" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pythonProject5$DataTransformation.coverage" NAME="DataTransformation Coverage Results" MODIFIED="1699540768156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

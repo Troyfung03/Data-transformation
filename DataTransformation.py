@@ -8,7 +8,7 @@ data.drop_duplicates(inplace=True)
 
 # 2. Fill na, replace value and Convert data to right format
 data['reservation_status_date'] = pd.to_datetime(data['reservation_status_date'])
-l = ['children', 'agent', 'adr','company']
+l = ['children', 'agent', 'adr', 'company']
 for c in l:
     data[c] = data[c].fillna(0)
     if (data[c].astype(int) == data[c]).all():
