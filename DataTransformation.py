@@ -14,18 +14,21 @@ for c in l:
     if (data[c].astype(int) == data[c]).all():
         data[c] = data[c].astype(int)
 
+data['country'] = data['country'].fillna('NC')
+
 print(data['reservation_status'].unique())
 # Set Check-Out to 0, Canceled to 1, No-Show to 2
 s = data['reservation_status'].unique()
 for i in range(3):
     data.loc[data['reservation_status'] == s[i], 'reservation_status'] = i
+data['reservation_status'] = data['reservation_status'].astype(int)
 
 
 # 3. Merge and drop column
 # Arrival date
 data['arrival_date_month'].replace(
     ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],inplace=True)
+    [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], inplace=True)
 
 data['arrival_date'] = pd.to_datetime(data['arrival_date_month'].astype(str) + '/' +
                                       data['arrival_date_day_of_month'].astype(str) + '/' + data['arrival_date_year'].astype(str))

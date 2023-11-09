@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfffcedb-bf39-4d2b-8c3b-90289fdcb5d6" name="Changes" comment="final ver">
+    <list default="true" id="cfffcedb-bf39-4d2b-8c3b-90289fdcb5d6" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataTransformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataTransformation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,7 @@
       <workItem from="1699453111468" duration="66000" />
       <workItem from="1699453198758" duration="2558000" />
       <workItem from="1699508515302" duration="9111000" />
-      <workItem from="1699534309821" duration="6923000" />
+      <workItem from="1699534309821" duration="11822000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1699453542453</created>
@@ -122,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699541279002</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary=".">
+      <created>1699541326919</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699541326919</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,10 +143,27 @@
     <MESSAGE value="remove duplicate and convert data to right format" />
     <MESSAGE value="Merge and drop column" />
     <MESSAGE value="final ver" />
-    <option name="LAST_COMMIT_MESSAGE" value="final ver" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DataTransformation.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DataTransformation.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject5$DataTransformation.coverage" NAME="DataTransformation Coverage Results" MODIFIED="1699540768156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pythonProject5$DataTransformation.coverage" NAME="DataTransformation Coverage Results" MODIFIED="1699547528941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject5$astype.coverage" NAME="astype Coverage Results" MODIFIED="1699522517618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/anaconda3/lib/python3.11/site-packages/pandas/core/dtypes" />
   </component>
 </project>
